@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Spinner</string>
+
+    <string-array name="country_name">
+        <item>Bangladesh</item>
+        <item>China</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>Pakistan</item>
+        <item>Dubai</item>
+
+    </string-array>
+</resources>
