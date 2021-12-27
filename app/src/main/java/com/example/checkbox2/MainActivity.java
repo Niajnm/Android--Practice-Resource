@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         seekbarView = findViewById(R.id.Textview_seek);
 
     javaCheckbox = findViewById(R.id.java_id);
+
     cplusCheckbox= findViewById(R.id.cprogramming_id);
     pythonCheckbox = findViewById(R.id.python_id);
     Showbutton =findViewById(R.id.okbutton_id);
