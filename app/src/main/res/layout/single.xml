@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="horizontal">
+
+
+  <ScrollView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+          <ImageView
+              android:id="@+id/bdimg"
+              android:layout_width="wrap_content"
+              android:src="@drawable/bangladesh"
+              android:layout_height="wrap_content">
+
+
+          </ImageView>
+
+          <TextView
+              android:id="@+id/textviewUp"
+              android:layout_width="wrap_content"
+              android:layout_toRightOf="@id/bdimg"
+
+              android:text="hsdfyewyfewu"
+              android:layout_marginLeft="10dp"
+              android:layout_height="wrap_content">
+
+
+          </TextView>
+
+          <TextView
+              android:id="@+id/textviewDown"
+              android:layout_width="wrap_content"
+              android:layout_marginBottom="5dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/textviewUp"
+              android:layout_alignLeft="@+id/textviewUp"
+              android:visibility="visible"
+              android:text="@string/bangladesh"
+              />
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </RelativeLayout>
+
+
+
+
+
+
+
+  </ScrollView>
+
+</RelativeLayout>
